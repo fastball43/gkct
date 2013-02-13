@@ -12,13 +12,13 @@ $ ->
 			return false
 	)
 	$("#q4-result").on('click', ->
-			if $("#q4-1").val() != "1"
+			if $("#q4-1").val() != "0"
 				alert '(1)번 문제가 틀렸군요. 다시 생각해 보세요.'
 				return false
 			else if $("#q4-2").val() != "1"
 				alert '(2)번 문제가 틀렸군요. 다시 생각해 보세요.'
 				return false
-			else if $("#q4-3").val() != "1"
+			else if $("#q4-3").val() != "0"
 				alert '(3)번 문제가 틀렸군요. 다시 생각해 보세요.'
 				return false
 			else if $("#q4-4").val() != "1"
