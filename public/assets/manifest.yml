@@ -1,16 +1,20 @@
 ---
-q1_p1.png: q1_p1-e3a4a2042a2a3bd36f871340f51bd06d.png
-q1_p1/index.png: q1_p1-e3a4a2042a2a3bd36f871340f51bd06d.png
-q1_p2.png: q1_p2-50caa33bdefa48c64502669207112804.png
-q1_p2/index.png: q1_p2-50caa33bdefa48c64502669207112804.png
+q1_p1.png: q1_p1-b0d334759b5190c273a26411fc01106c.png
+q1_p1/index.png: q1_p1-b0d334759b5190c273a26411fc01106c.png
+q1_p1_old.png: q1_p1_old-e3a4a2042a2a3bd36f871340f51bd06d.png
+q1_p1_old/index.png: q1_p1_old-e3a4a2042a2a3bd36f871340f51bd06d.png
+q1_p2.png: q1_p2-6dbd21c53c22664c7bdd09eed205c40f.png
+q1_p2/index.png: q1_p2-6dbd21c53c22664c7bdd09eed205c40f.png
+q1_p2_old.png: q1_p2_old-50caa33bdefa48c64502669207112804.png
+q1_p2_old/index.png: q1_p2_old-50caa33bdefa48c64502669207112804.png
 q4_p1.png: q4_p1-99e6cfadf2b4a228ba48e341895eb8a2.png
 q4_p1/index.png: q4_p1-99e6cfadf2b4a228ba48e341895eb8a2.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 ref_p1.png: ref_p1-08f02243e1dab8cfe4becd3c3af1239c.png
 ref_p1/index.png: ref_p1-08f02243e1dab8cfe4becd3c3af1239c.png
-application.js: application-b9c4d6fba04600fa8485aad8033d4616.js
-application/index.js: application-b9c4d6fba04600fa8485aad8033d4616.js
+application.js: application-1765cca41a74e33c4f03e489f0134179.js
+application/index.js: application-1765cca41a74e33c4f03e489f0134179.js
 application.css: application-7a48f5cdd182079173c10d4bb11a50b2.css
 application/index.css: application-7a48f5cdd182079173c10d4bb11a50b2.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map

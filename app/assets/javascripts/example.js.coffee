@@ -11,6 +11,7 @@ $ ->
 			alert '틀렸습니다. 다시 생각해 보세요'
 			return false
 	)
+
 	$("#q4-result").on('click', ->
 			if $("#q4-1").val() != "0"
 				alert '(1)번 문제가 틀렸군요. 다시 생각해 보세요.'
@@ -31,20 +32,3 @@ $ ->
 				alert '정답입니다!'
 				return true
 	)
-	$ ->
-  btnRadio = $('.btn-radio')
-
-  btnRadio.each ->
-    value = $(this).find('input').val()
-    if value
-      $(this).find('button[data-value=' + value + ']').addClass('active')
-
-  btnRadio.on('click', 'button', -> 
-    value = $(this).attr('data-value')
-    input = $(this).parent().find('input')
-    btns = $(this).parent().find('button')
-
-    btns.removeClass('active')
-    $(this).addClass('active')
-    input.val(value)
-  )
