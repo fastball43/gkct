@@ -31,3 +31,20 @@ $ ->
 				alert '정답입니다!'
 				return true
 	)
+	$ ->
+  btnRadio = $('.btn-radio')
+
+  btnRadio.each ->
+    value = $(this).find('input').val()
+    if value
+      $(this).find('button[data-value=' + value + ']').addClass('active')
+
+  btnRadio.on('click', 'button', -> 
+    value = $(this).attr('data-value')
+    input = $(this).parent().find('input')
+    btns = $(this).parent().find('button')
+
+    btns.removeClass('active')
+    $(this).addClass('active')
+    input.val(value)
+  )
