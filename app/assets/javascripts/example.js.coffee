@@ -4,6 +4,7 @@
 
 $ ->
 	$("#q3-result").on('click', ->
+		console.log $("#q3-1").val() + ' : ' + $("#q3-2").val()
 		if $("#q3-1").val() == "1" && $("#q3-2").val() == "1"
 			alert '정답입니다!'
 			return true
