@@ -1,10 +1,12 @@
 ---
-q1_p1.png: q1_p1-b0d334759b5190c273a26411fc01106c.png
-q1_p1/index.png: q1_p1-b0d334759b5190c273a26411fc01106c.png
+background_img.jpg: background_img-218d1f881e5b5f34480202c1265dc02c.jpg
+background_img/index.jpg: background_img-218d1f881e5b5f34480202c1265dc02c.jpg
+q1_p1.png: q1_p1-8094bec8accec7604de8a33aa9e92fc5.png
+q1_p1/index.png: q1_p1-8094bec8accec7604de8a33aa9e92fc5.png
 q1_p1_old.png: q1_p1_old-e3a4a2042a2a3bd36f871340f51bd06d.png
 q1_p1_old/index.png: q1_p1_old-e3a4a2042a2a3bd36f871340f51bd06d.png
-q1_p2.png: q1_p2-6dbd21c53c22664c7bdd09eed205c40f.png
-q1_p2/index.png: q1_p2-6dbd21c53c22664c7bdd09eed205c40f.png
+q1_p2.png: q1_p2-3d1fa79fc82aa1e2d93552d7bf3e3b0f.png
+q1_p2/index.png: q1_p2-3d1fa79fc82aa1e2d93552d7bf3e3b0f.png
 q1_p2_old.png: q1_p2_old-50caa33bdefa48c64502669207112804.png
 q1_p2_old/index.png: q1_p2_old-50caa33bdefa48c64502669207112804.png
 q4_p1.png: q4_p1-99e6cfadf2b4a228ba48e341895eb8a2.png
@@ -13,10 +15,10 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 ref_p1.png: ref_p1-08f02243e1dab8cfe4becd3c3af1239c.png
 ref_p1/index.png: ref_p1-08f02243e1dab8cfe4becd3c3af1239c.png
-application.js: application-1765cca41a74e33c4f03e489f0134179.js
-application/index.js: application-1765cca41a74e33c4f03e489f0134179.js
-application.css: application-7a48f5cdd182079173c10d4bb11a50b2.css
-application/index.css: application-7a48f5cdd182079173c10d4bb11a50b2.css
+application.js: application-87aab66593a42c3ff930c3e7972d872f.js
+application/index.js: application-87aab66593a42c3ff930c3e7972d872f.js
+application.css: application-8937b585e26fb6f93fec0e11fb6757c9.css
+application/index.css: application-8937b585e26fb6f93fec0e11fb6757c9.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 foundation/orbit/bullets.jpg: foundation/orbit/bullets-4fea3b6075ffb7211bfaea707aed9180.jpg
