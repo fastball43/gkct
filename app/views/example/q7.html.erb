@@ -1,5 +1,5 @@
 <div class="row">
-	<div class="twelve mobile-four columns">
+  <div class="small-12 large-12 columns">
 		<h5 class="subheader">[물음 7] &lt;보기&gt;는 어제 겪었던 상황과 오늘 본 장면을 비교하여 영이가 내린 결론들입니다. &lt;보기&gt; 중 위 글에 근거해 자연스럽게 추측한 것으로 볼 수 없는 것만 고른다면?</h5>
 		&lt;보기&gt; 
 		<div class="panel radius">
@@ -8,7 +8,7 @@
 			(다) 도마뱀은 평소에 아저씨를 괴롭혔군.</p>
 		</div>
 
-		<table class="twelve">
+		<table class="small-12 small-centered large-12 columns">
 		  <thead>
 		    <tr>
 		      <th></th>
@@ -20,30 +20,45 @@
 		    <tr>
 		    	<td>①</td>
 		      <td>(가)</td>
-		      <td><a class="tiny radius secondary button" href="#" onClick="alert('오답입니다. 다시 생각해보세요.'); return false">선택</a></td>
+		      <td><a class="small button radius secondary" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		    <tr>
 		    	<td>②</td>
 		      <td>(나)</td>
-		      <td><a class="tiny radius secondary button" href="#" onClick="alert('오답입니다. 다시 생각해보세요.'); return false">선택</a></td>
+		      <td><a class="small button radius secondary" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		    <tr>
 		    	<td>③</td>
 		      <td>(다)</td>
-		      <td><a class="tiny radius secondary button" href="/example/s7" onClick="alert('정답입니다!'); return true">선택</a></td>
+		      <td><a class="small button radius secondary" href="#" data-reveal-id="Correct" >선택</a></td>
 		    </tr>
 		    <tr>
 		    	<td>④</td>
 		      <td>(가), (나)</td>
-		      <td><a class="tiny radius secondary button" href="#" onClick="alert('오답입니다. 다시 생각해보세요.'); return false">선택</a></td>
+		      <td><a class="small button radius secondary" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		    <tr>
 		    	<td>⑤</td>
 		      <td>(가), (다)</td>
-		      <td><a class="tiny radius secondary button" href="#" onClick="alert('오답입니다. 다시 생각해보세요.'); return false">선택</a></td>
+		      <td><a class="small button radius secondary" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		  </tbody>
 	  </table>
 
 	</div>
+</div>
+
+<div id="Wrong" class="reveal-modal">
+  </br></br>
+  <h1>X 오답입니다.</h1>
+  <p class="lead">다시 생각해 보세요.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  <a href="#" id="close-reveal" class="button secondary">닫기</a>
+</div>
+<div id="Correct" class="reveal-modal">
+  </br></br>
+  <h1>O 정답입니다!</h1>
+  <p class="lead">더 알아봅시다 :)</p>
+  <a class="button radius" href="/example/s7">설명 보기</a>
+  <a class="close-reveal-modal">&#215;</a>
 </div>

@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="twelve mobile-four columns">
+  <div class="small-12 large-12 columns">
 
   	<div class="panel radius">
   	<h5 class="subheader">[물음 4] 이제 다음 그림을 보고 각 문장이 적절한지, 적절하지 않은지 선택해 주세요.</h5>
@@ -10,12 +10,12 @@
   	<form class="custom">
   		<div class="panel radius">
 	  		<div class="row">
-	  			<div class="twelve mobile-four columns">
+	  			<div class="small-12 large-12 columns">
 	  				<p>(1) 문제 영역에는 반드시 산개구리와 같은 대상 하나가 들어가야 해.</p>
 	  			</div>
 	  		</div>
 				<div class="row">
-					<div class="twelve mobile-two columns">
+					<div class="small-6 small-offset-6 large-12 columns">
 						<select id="q4-1">
 		  				<option>선택</option>
 		  				<option value="1">O</option>
@@ -27,12 +27,12 @@
 
 			<div class="panel radius">
 				<div class="row">
-					<div class="twelve mobile-four columns">
+					<div class="small-12 large-12 columns">
 						<p>(2) 문제 영역에는 산개구리와 같은 대상뿐만 아니라 영이가 오늘 본 상황과 같은 것도 들어갈 수 있어.</p>
 	  			</div>
 	  		</div>
 				<div class="row">
-					<div class="twelve mobile-two columns">
+					<div class="small-6 small-offset-6 large-12 columns">
 						<select id="q4-2">
 		  				<option>선택</option>
 		  				<option value="1">O</option>
@@ -44,12 +44,12 @@
 
       <div class="panel radius">
 				<div class="row">
-					<div class="twelve mobile-four columns">
+					<div class="small-12 large-12 columns">
 						<p>(3) 유사한 영역에는 내가 모르는 것이 들어가야 해.</p>
 	  			</div>
 	  		</div>
 				<div class="row">
-					<div class="twelve mobile-two columns">
+					<div class="small-6 small-offset-6 large-12 columns">
 						<select id="q4-3">
 		  				<option>선택</option>
 		  				<option value="1">O</option>
@@ -61,12 +61,12 @@
 
 			<div class="panel radius">
 				<div class="row">
-					<div class="twelve mobile-four columns">
+					<div class="small-12 large-12 columns">
 						<p>(4) 유사한 영역에는 영이가 어제 겪었던 상황처럼 ‘이미 경험한 것’, ‘이미 알고 있는 것’ 혹은 인터넷이나 책을 통해 알 수 있는 것이 들어가야 해.</p>
 	  			</div>
 	  		</div>
 				<div class="row">
-					<div class="twelve mobile-two columns">
+					<div class="small-6 small-offset-6 large-12 columns">
 						<select id="q4-4">
 		  				<option>선택</option>
 		  				<option value="1">O</option>
@@ -83,7 +83,7 @@
 	  			</div>
 	  		</div>
 				<div class="row">
-					<div class="twelve mobile-two columns">
+					<div class="small-6 small-offset-6 large-12 columns">
 						<select id="q4-5">
 		  				<option>선택</option>
 		  				<option value="1">O</option>
@@ -94,11 +94,53 @@
 			</div>
 		</form>
 			<div class="row">
-				<div class="twelve mobile-two columns">
+				<div class="small-6 small-centered large-12 columns">
 					<%= link_to "결과보기", example_s4_path , :class => "button", :id => "q4-result" %>
 				</div>
 			</div>
-
-
 	</div>
+</div>
+
+<div id="Wrong1" class="reveal-modal">
+  </br></br>
+  <!-- <h1>X 오답입니다.</h1> -->
+  <p class="lead">(1)번 문제가 틀렸군요. 다시 생각해 보세요.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  <a href="#" id="close-reveal1" class="button secondary">닫기</a>
+</div>
+<div id="Wrong2" class="reveal-modal">
+  </br></br>
+  <!-- <h1>X 오답입니다.</h1> -->
+  <p class="lead">(2)번 문제가 틀렸군요. 다시 생각해 보세요.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  <a href="#" id="close-reveal2" class="button secondary">닫기</a>
+</div>
+<div id="Wrong3" class="reveal-modal">
+  </br></br>
+  <!-- <h1>X 오답입니다.</h1> -->
+  <p class="lead">(3)번 문제가 틀렸군요. 다시 생각해 보세요.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  <a href="#" id="close-reveal3" class="button secondary">닫기</a>
+</div>
+<div id="Wrong4" class="reveal-modal">
+  </br></br>
+  <!-- <h1>X 오답입니다.</h1> -->
+  <p class="lead">(4)번 문제가 틀렸군요. 다시 생각해 보세요.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  <a href="#" id="close-reveal4" class="button secondary">닫기</a>
+</div>
+<div id="Wrong5" class="reveal-modal">
+  </br></br>
+  <!-- <h1>X 오답입니다.</h1> -->
+  <p class="lead">(5)번 문제가 틀렸군요. 다시 생각해 보세요.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  <a href="#" id="close-reveal5" class="button secondary">닫기</a>
+</div>
+
+<div id="Correct" class="reveal-modal">
+  </br></br>
+  <h1>O 정답입니다!</h1>
+  <p class="lead">더 알아봅시다 :)</p>
+  <a class="button radius" href="/example/s4">설명 보기</a>
+  <a class="close-reveal-modal">&#215;</a>
 </div>

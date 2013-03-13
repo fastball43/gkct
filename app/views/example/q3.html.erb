@@ -1,47 +1,21 @@
 <div class="row">
-  <div class="twelve mobile-four columns">
-
+  <div class="small-12 large-12 columns">
   	<h5 class="subheader">[물음 3] 위 글의 내용에 근거하여 빈 칸을 채워 본다면?</h5>
-		
-<!-- 		<table class="twelve">
-		  <tbody>
-		    <tr>
-		      <td>영이</td>
-		      <td>:</td>
-		      <td>강아지</td>
-		      <td>아저씨</td>
-		      <td>:</td>
-		      <td>(가)</td>
-		    </tr>
-		    <tr>
-		      <td>강아지</td>
-		      <td>:</td>
-		      <td>멍칙이</td>
-		      <td>=</td>
-		      <td>(나)</td>
-		      <td>:</td>
-		      <td>도마뱀</td>
-		    </tr>
-		  </tbody>
-		</table>
- -->
  		<div class="panel radius">
 			<div class="row">
-				<div class="twelve mobile-four columns" style="text-align: center;"><strong>&nbsp;&nbsp;&nbsp;영이&nbsp;:&nbsp;강아지&nbsp;=&nbsp;아저씨&nbsp;:&nbsp;&nbsp;&nbsp;(가)&nbsp;&nbsp;</strong></div>
+				<div class="small-12 large-12 columns" style="text-align: center;"><strong>&nbsp;&nbsp;&nbsp;영이&nbsp;:&nbsp;강아지&nbsp;=&nbsp;아저씨&nbsp;:&nbsp;&nbsp;&nbsp;(가)&nbsp;&nbsp;</strong></div>
 			</div>
 			<div class="row">&nbsp;
 			</div>
 			<div class="row">
-				<div class="twelve mobile-four columns" style="text-align: center;"><strong>강아지&nbsp;:&nbsp;멍칙이&nbsp;=&nbsp;&nbsp;&nbsp;(나)&nbsp;&nbsp;&nbsp;:&nbsp;도마뱀</strong></div>
+				<div class="small-12 large-12 columns" style="text-align: center;"><strong>강아지&nbsp;:&nbsp;멍칙이&nbsp;=&nbsp;&nbsp;&nbsp;(나)&nbsp;&nbsp;&nbsp;:&nbsp;도마뱀</strong></div>
 			</div>
 		</div>
  
-  	<form class="custom"> 
+  	<form class="custom" id="qform"> 
 			<div class="row">
-				<div class="twelve mobile-four columns"> (가)에 해당하는 것은?</div>
-			</div>
-			<div class="row">
-				<div class="twelve mobile-three columns">
+				<div class="small-7 large-7 columns"> (가)에 해당하는 것은?</div>
+				<div class="small-5 large-5 columns">
 					<select id="q3-1">
 	  				<option>선택</option>
 	  				<option value="1">고양이</option>
@@ -51,10 +25,8 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="twelve mobile-four columns"> (나)에 해당하는 것은?</div>
-			</div>
-			<div class="row">
-				<div class="twelve mobile-three columns">	
+				<div class="small-7 large-7 columns"> (나)에 해당하는 것은?</div>
+				<div class="small-5 large-5 columns">
 					<select id="q3-2">
 	  				<option>선택</option>
 	  				<option value="1">고양이</option>
@@ -65,10 +37,25 @@
 			</div>
   	</form>
 			<div class="row">
-				<div class="twelve mobile-two columns">
-					<%= link_to "결과보기", example_s3_path, :class => "button", :id => "q3-result" %>
+				<div class="small-6 small-centered large-12 columns">
+					<%= link_to "결과보기", "#", :class => "button", :id => "q3-result" %>
 				</div>
 			</div>
-
+			<!-- <a class="small radius secondary button" href="#" data-reveal-id="Correct">선택</a> -->
   </div>
+</div>
+
+<div id="Wrong" class="reveal-modal">
+  </br></br>
+  <h1>X 오답입니다.</h1>
+  <p class="lead">다시 생각해 보세요.</p>
+  <a class="close-reveal-modal">&#215;</a>
+  <a href="#" id="close-reveal" class="button secondary">닫기</a>
+</div>
+<div id="Correct" class="reveal-modal">
+  </br></br>
+  <h1>O 정답입니다!</h1>
+  <p class="lead">더 알아봅시다 :)</p>
+  <a class="button radius" href="/example/s3">설명 보기</a>
+  <a class="close-reveal-modal">&#215;</a>
 </div>

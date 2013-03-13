@@ -1,28 +1,32 @@
 <div class="row">
-  <div class="twelve mobile-four columns">
-
+  <div class="small-12 large-12 columns">
   	<div class="panel radius">
   		<h5 class="subheader">상황</h5>
   		<p>영이는 어제 강아지를 데리고 산책을 나갔다. 갑자기 ‘스스르르’ 소리가 났다. 고개를 돌려보니 도마뱀이 나무를 타고 올라가고 있었다. 이때 영이를 부르는 소리가 났다. 평소 영이를 괴롭히던 멍칙이가 웃고 있었다. 강아지는 멍칙이를 보고 짖어댔다. 멍칙이가 강아지를 때리는 시늉을 하자, 강아지는 줄을 끊고 멍칙이에게 달려들었다. 놀란 멍칙이는 걸음아 나 살려라 하면서 도망갔다.</p>
   		<p>영이는 오늘 공원에 놀러 갔다. 영이는 다음과 같은 장면을 목격했다.</p>
-  		<%= image_tag 'q1_p1.png' %>
+			<%= image_tag 'q1_p1.png' %>
   		<p>영이가 오늘 본 장면은 어제 겪었던 상황과 비슷했다. 영이는 다음과 같은 질문을 스스로에게 던졌다.</p>
   		<blockquote>
   			<strong>‘왜 고양이는 도마뱀을 쫓아갔을까?’</strong>
   		</blockquote>
   	</div>
-
-  	<h5 class="subheader">[물음 1] (어제의 상황을 설명한) 다음 그림에서 D, E, F에 대응하는 것은?</h5>
-  	<div class="row">
-		  <div class="ten mobile-four columns centered">
-		    <%= image_tag 'q1_p2.png', :width => '100%'%>
-		  </div>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 large-12 columns">
+			<h5 class="subheader">[물음 1] 다음 그림에서 D, E, F에 대응하는 것은?</h5>
 		</div>
-		
-  	<table class="twelve">
+	</div>
+<div class="row">
+  <div class="small-11 small-centered large-11 large-centered columns">
+    <p><%= image_tag 'q1_p2.png', :width => '100%'%></p>
+  </div>
+</div>
+<div class="row">
+  <div class="small-12 large-12 columns">
+  	<table class="small-12 small-centered large-12 large-centered columns">
 		  <thead>
 		    <tr>
-		      <!-- <th></th> -->
 		      <th>D</th>
 		      <th>E</th>
 		      <th>F</th>
@@ -34,58 +38,48 @@
 		      <td>영이</td>
 		      <td>멍칙이</td>
 		      <td>도마뱀</td>
-		      <td><a class="tiny radius secondary button" href="#" data-reveal-id="Wrong" >선택</a></td>
+		      <td><a class="small button radius secondary" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		    <tr>
 		      <td>강아지</td>
 		      <td>멍칙이</td>
 		      <td>도마뱀</td>
-		      <td><a class="tiny radius secondary button" href="#" data-reveal-id="Correct">선택</a></td>
+		      <td><a class="small radius secondary button" href="#" data-reveal-id="Correct">선택</a></td>
 		    </tr>
 		    <tr>
 		      <td>강아지</td>
 		      <td>도마뱀</td>
 		      <td>멍칙이</td>
-		      <td><a class="tiny radius secondary button" href="#" data-reveal-id="Wrong" >선택</a></td>
+		      <td><a class="small radius secondary button" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		    <tr>
 		      <td>멍칙이</td>
 		      <td>도마뱀</td>
 		      <td>강아지</td>
-		      <td><a class="tiny radius secondary button" href="#" data-reveal-id="Wrong" >선택</a></td>
+		      <td><a class="small radius secondary button" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		    <tr>
 		      <td>아저씨</td>
 		      <td>고양이</td>
 		      <td>도마뱀</td>
-		      <td><a class="tiny radius secondary button" href="#" data-reveal-id="Wrong" >선택</a></td>
+		      <td><a class="small radius secondary button" href="#" data-reveal-id="Wrong" >선택</a></td>
 		    </tr>
 		  </tbody>
 		</table>
-
-  </div>
+	</div>
 </div>
 
-
-<div id="Wrong" class="reveal-modal small">
+<div id="Wrong" class="reveal-modal">
   </br></br>
-  <h2 class="alert button">X 오답입니다.</h2>
-  </br>
+  <h1>X 오답입니다.</h1>
   <p class="lead">다시 생각해 보세요.</p>
   <a class="close-reveal-modal">&#215;</a>
-  <a class="close-custom-modal button radius">다시 보기</a>
+  <a href="#" id="close-reveal" class="button secondary">닫기</a>
 </div>
-<div id="Correct" class="reveal-modal small">
+<div id="Correct" class="reveal-modal">
   </br></br>
-  <h2 class="success button">O 정답입니다!</h2>
-  </br>
+  <h1>O 정답입니다!</h1>
   <p class="lead">더 알아봅시다 :)</p>
-  <a class="button radius" href="/example/s1">설명 보기 클릭</a>
+  <a class="button radius" href="/example/s1">설명 보기</a>
   <a class="close-reveal-modal">&#215;</a>
 </div>
-
-<script type="text/javascript">
-	$('.close-custom-modal').on('click', function(){
-		$('.reveal-modal').trigger('reveal:close');	
-	})
-</script>
