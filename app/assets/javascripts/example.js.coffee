@@ -20,7 +20,7 @@ $ ->
 
 $ ->
 	$("#close-reveal1").on('click', ->
-		$("Wrong1").foundation('reveal', 'close');
+		$("#Wrong1").foundation('reveal', 'close');
 		return false
 	)
 
