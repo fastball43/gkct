@@ -1,4 +1,7 @@
 Gkct::Application.routes.draw do
+  get "launcher/start"
+
+  root :to => "example#intro"
   get "example/intro"
   get "example/q1"
   get "example/s1"
@@ -16,6 +19,7 @@ Gkct::Application.routes.draw do
   get "example/s7"
   get "example/outro"
   get "example/ref"
+  get "example/gkct"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
