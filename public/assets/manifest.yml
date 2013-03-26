@@ -1,6 +1,8 @@
 ---
 background_img.jpg: background_img-91a28b499d64f9f3bad4b2d78c862a52.jpg
 background_img/index.jpg: background_img-91a28b499d64f9f3bad4b2d78c862a52.jpg
+goodking_blog_logo.png: goodking_blog_logo-49464c76a8f272be1def26575a7f6750.png
+goodking_blog_logo/index.png: goodking_blog_logo-49464c76a8f272be1def26575a7f6750.png
 q1_p1.png: q1_p1-eff025ac8066d1b1b6e037832f7c2e42.png
 q1_p1/index.png: q1_p1-eff025ac8066d1b1b6e037832f7c2e42.png
 q1_p2.png: q1_p2-a1706afbba01e501d41b7a5244281b15.png
@@ -11,10 +13,10 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 ref_p1.png: ref_p1-08f02243e1dab8cfe4becd3c3af1239c.png
 ref_p1/index.png: ref_p1-08f02243e1dab8cfe4becd3c3af1239c.png
-application.js: application-9db1656b2ee13a718588eac06797b097.js
-application/index.js: application-9db1656b2ee13a718588eac06797b097.js
-application.css: application-266f826f16aecb25b99c1442eadf9f89.css
-application/index.css: application-266f826f16aecb25b99c1442eadf9f89.css
+application.js: application-d32faf94d0f2eb11bf93e7a0f6773395.js
+application/index.js: application-d32faf94d0f2eb11bf93e7a0f6773395.js
+application.css: application-46b1036e99b159801c616309ab6a71d7.css
+application/index.css: application-46b1036e99b159801c616309ab6a71d7.css
 jquery.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 jquery/index.min.map: jquery.min-6c267bfd2b3f36e6edccb2e584934c1c.map
 vendor/custom.modernizr.js: vendor/custom.modernizr-5c8db04796b258cc87b05ceddc790040.js
