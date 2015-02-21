@@ -1,7 +1,7 @@
 Gkct::Application.routes.draw do
   get "launcher/start"
 
-  root :to => "example#intro"
+  root :to => 'example#intro'
   get "example/intro"
   get "example/q1"
   get "example/s1"
